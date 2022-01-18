@@ -1,0 +1,270 @@
+
+
+html {
+  background-color: #ffffff;
+  font-family: "Modak", cursive;
+  font-family: "Monofett", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-size: x-large;
+  font-weight: lighter;
+}
+
+body {
+  background-color:#ffffff;
+  font-family: 'Amarante', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+
+header {
+  text-align: center;
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 20px;
+  font-family: 'Amarante', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  
+}
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+  
+
+}
+
+h2 {
+  font-size: 17px;
+  text-align: center;
+
+}
+
+nav {
+  background-color: #d8d2d8; 
+  font-size: 20px
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+/* Links inside the navbar */
+a {
+  float: left;
+  display: block;
+  color: #020202;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+a:hover {
+  font-family: 'Amarante', cursive;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  color: aqua;
+  background-color: rgb(41, 150, 212);
+}
+
+
+div {
+  padding: 10px;
+}
+
+img {
+  width: 50%;
+  height: 60vh;
+  object-fit: cover;
+  object-position: bottom;
+}
+footer {
+  text-align: center;
+  height: fit-content;
+  padding: 2px
+ 
+}
+
+nav a {
+  display:inline-block
+}
+
+.img1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  /* The image used */
+  background-image: url("images/pastal.jpg");
+  
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style all font awesome icons
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+/* .fa:hover {
+  opacity: 0.7;
+} */ 
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/* Twitter */
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa {
+  padding: 9px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+body {
+  background-color: #475F94;
+  color: #fff;
+  font-family: "Gill Sans", sans-serif;
+}
+
+header {
+  border-bottom: 2px solid #FDDC5C;
+  text-align: center;
+}
+
+form {
+  margin: 50px auto;
+  width: 90%;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.form-item label {
+  flex-basis: 150px;
+  font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+  flex-basis: 50%;
+  border: 2px solid #FDDC5C;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+  border: 2px solid #FA4224;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+  border: 2px solid #FDDC5C;
+  background-color: #FFF;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.form-item button:hover {
+  border: 2px solid #FA4224;
+  background-color: #FA4224;
+  color: #FFF;
+}
+
+.form-item button {
+  width: 100px;
+}
