@@ -72,8 +72,9 @@ background-size: cover;
     text-align: center;
     color: #000;
 }
-.caption span.border {
+.border {
   background-color: #e99b9b;
+  width: 20%;
   color: #fff;
   padding: 18px;
   font-size: 25px;
@@ -110,6 +111,14 @@ background-size: cover;
   opacity: 0.8;
   position: relative;
 
+}
+
+.white-box {
+color: #777;
+background-color: white;
+text-align: center;
+padding: 50px 80px;
+text-align: justify;
 }
 
 
@@ -172,6 +181,7 @@ nav {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 1;
 }
 
 /* Links inside the navbar */
