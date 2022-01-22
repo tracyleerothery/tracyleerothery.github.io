@@ -38,6 +38,25 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.parallax1 {
+  /* The image used */
+  background-image: url("/images/beach2.jpg");
+  /* opacity: 0.5; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wave1 {
+position: relative;
+opacity: 0.65;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
 .sand {
   background-image: url("/images/sand.jpg");
   min-height: 400px;
@@ -51,11 +70,11 @@ background-size: cover;
   background-size: cover;
   }
 
-  .beach {
+  .beach1 {
     background-image: url("/images/beach1.jpg");
     min-height: 400px;
   }
-  .beach {
+  .beach1 {
     position: relative;
     opacity: 0.65;
     background-attachment: fixed;
@@ -63,6 +82,32 @@ background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
     }
+
+    .beach2 {
+      background-image: url("/images/beach2.jpg");
+      min-height: 400px;
+    }
+    .beach2 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+
+      .beach {
+        background-image: url("/images/beach.jpg");
+        min-height: 400px;
+      }
+      .beach {
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
 
 
   
@@ -161,6 +206,14 @@ header {
   background-color: var(--white-color);
 }
 
+.container-p-box {
+  
+  background-color: #f1f1f1;
+  padding: 55px;
+  margin: 30px auto;
+
+}
+
 
 .project-image {
   height: 400px;
@@ -172,12 +225,15 @@ header {
 .project {
   display: flex;
   margin-bottom: 80px;
+  background-color: #f1f1f1;
+  
 }
 
 * {
   margin: 0;
   padding: 0;
 }
+
 
 h1 {
   margin-top: 0px;
@@ -239,10 +295,34 @@ footer {
   text-align: center;
   height: fit-content;
   padding: 10px;
-  font-size: x-small;
   font-weight: 400;
+  color: #6e6a6a;
+  
 }
 
+.about {
+  font-size: larger;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+.heading {
+  font-size: x-large;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.footer-addition {
+  background-color: #ffffff;
+  padding: 10px;
+  font-size: medium;
+  color: #ad6868;
+
+  
+  
+}
 nav a {
   display: inline-block;
 }
@@ -322,9 +402,12 @@ nav a {
 
 .profile-text {
   color: #f2f2f2;
-  text-align: right;
+  padding: 10px;
+  margin: 15px 15px;
+  text-align: center;
   font-weight: lighter;
   text-overflow: ellipsis;
+  font-size: x-large;
 }
 #more {
   display: none;
@@ -411,8 +494,10 @@ header {
 }
 
 form {
-  margin: 50px auto;
-  width: 90%;
+  margin: 45px auto;
+  padding: auto;
+  width: 65%;
+  background-color: #f1f1f1;
 }
 
 .form-item {
@@ -420,17 +505,20 @@ form {
   justify-content: center;
   align-items: center;
   padding: 5px;
+  
 }
 
 .form-item label {
   flex-basis: 150px;
   font-size: 22px;
+  
 }
 
 .form-item input,
 .form-item textarea {
   flex-basis: 50%;
   border: 2px solid #fddc5c;
+  
 }
 
 .form-item input:hover,
@@ -608,6 +696,10 @@ img.hover-shadow {
 .h3 {
   font-size: 30px;
   font-family: Recoleta, sans-serif;
+
+}
+.h3-center {
+  align-content: center;
 }
 
 .h1 {
@@ -666,3 +758,4 @@ button.style-1 {
 .project:nth-child(even) {
     flex-direction: column;
 }
+
