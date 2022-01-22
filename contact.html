@@ -1,60 +1,75 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Introduction to Forms</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Introduction to Forms</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-    
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="button1">Home</a>
+        <a href="portfolio.html" class="button1">Portfolio</a>
+        <a href="about.html" class="button1">About</a>
+        <a href="contact.html" class="button1">Contact</a>
+        <a
+          href="https://www.linkedin.com/in/tracy-leerothery/"
+          class="fa fa-linkedin"
+        >
+        </a>
+        <a href="https://github.com/tracyleerothery/" class="fa fa-github"> </a>
+      </nav>
+      &nbsp
+    </header>
+    &nbsp
+    <!-- <div class="logo-container">
+      <div><img src="images/logo.png" alt="" /></div>
+    </div> -->
 
-    <body>
+    <div class="container">
+      <img src="images/notebook.jpg" alt="Notebook" style="width: 100%" />
+      <div class="content">
+        <h1>Get in Touch</h1>
+        <p>
+          contact form to reach me.Lorem ipsum dolor sit amet, an his etiam
+          torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis
+          neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum
+          tractatos ei.
+        </p>
+      </div>
+    </div>
 
-        
-        <nav class="navbar">
-            <a href="index.html" class="button1">Home</a>
-            <a href="portfolio.html" class="button1">Portfolio</a>
-            <a href="about.html" class="button1">About</a>
-            <a href="contact.html" class="button1">Contact</a>
-  
-            <!-- Add font awesome icons -->
-            <a href="https://www.linkedin.com/in/tracy-leerothery/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/tracyleerothery/" class="fa fa-github"></a>
-        </nav>
+    <!-- Post is the data being sent -->
+    <form action="https://formspree.io/f/mayvqqgo" method="post">
+      <div class="form-item">
+        <!-- input type is text and id and name is name, id and for are going to be the same -->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
 
+      <div class="form-item">
+        <label for="mail">Email</label>
+        <!-- input type is email and id matches the for, name is for accesiblity-->
+        <input type="email" id="mail" name="email" />
+      </div>
 
-        
-        <header>
-            <h1>Get in touch!</h1>
-        </header>
-        <!-- Post is the data being sent -->
-        <form action="https://formspree.io/f/mayvqqgo" method="post">
-            <div class="form-item">
-                <!-- input type is text and id and name is name, id and for are going to be the same -->
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-            </div>
-
-            <div class="form-item">
-                <label for="mail">Email</label>
-                <!-- input type is email and id matches the for, name is for accesiblity-->
-                <input type="email" id="mail" name="email">
-            </div>
-
-            <div class="form-item">
-                <label for="message" id="message" name="message">Message</label>
-                <textarea id="message" name="message"> </textarea>
-            </div>
-            <div class="form-item">
-                <button type="submit">Send!</button>
-            </div>
-
-
-
-                
-        </form>
-
-    </body>
+      <div class="form-item">
+        <label for="message" id="message" name="message">Message</label>
+        <textarea id="message" name="message"> </textarea>
+      </div>
+      <div class="form-item">
+        <button type="submit">Send!</button>
+      </div>
+    </form>
+    <footer>
+      Copyright © 2022 Tracy Rothery • Perth based Freelance Web Designer &
+      Developer
+    </footer>
+  </body>
 </html>
