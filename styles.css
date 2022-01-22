@@ -12,11 +12,18 @@ body {
   color: rgb(0, 0, 0); 
     }
 }
+
+.parallax-container {
+  height: 100%;
+  padding: 0;
+
+}
+
 .parallax {
   /* The image used */
   background-image: url("/images/wave.jpg");
   opacity: 0.5;
-  height: 90%;
+  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -66,12 +73,20 @@ background-size: cover;
   
   .caption {
     position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
+    left: 50%;
+    top: 40%;
     text-align: center;
-    color: #000;
+    transform: translate(-50%, 0%);
+    color: rgb(255, 255, 255);
 }
+
+.c-container {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .border {
   background-color: #e99b9b;
   width: 20%;
@@ -81,20 +96,30 @@ background-size: cover;
   letter-spacing: 10px;
 }
 
+.title {
+  background-color: #e99b9b;
+  color: #fff;
+  padding: 40px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
 .button {
-  display: inline-block;
+  display: flex;
   background-color: #e99b9b;
   width: 10em;
   margin-top: 20px;
   margin-bottom: 10px;
   padding: 10px 20px;
-  
   color: var(--main-color);
   font-size: 1em;
   border: 2px solid var(--main-color);
   border-radius: 10px;
   text-align: center;
+
 }
+
+
 
 
 
@@ -305,30 +330,33 @@ nav a {
   display: none;
 }
 
-/* Facebook */
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-/* Twitter */
-.fa-github {
-  background: #000000;
-  color: white;
-}
-
 .fa {
-  padding: 9px;
-  font-size: 30px;
-  width: 50px;
+  padding: 10px;
+  font-size: 10px;
+  width: 45px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 10px 10px;
+  border-radius: 40%;
 }
 
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  
+}
+
+.fa-github {
+  background: #3f3f3f;
+  color: white;
+}
+
+
+
 
 .header {
   text-align: center;
