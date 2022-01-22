@@ -1,7 +1,7 @@
 body, html {
   height: 100%;
   font: 400 15px/1.8 "Lato", sans-serif;
-  background-color: #faedcd;
+  background-color: #98c2e4;
   font-family: 'Raleway', sans-serif;
   line-height: 1.3;
   letter-spacing: 0.02em;
@@ -16,7 +16,7 @@ body {
   /* The image used */
   background-image: url("/images/wave.jpg");
   opacity: 0.5;
-  height: 100%;
+  height: 90%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,6 +44,22 @@ background-size: cover;
   background-size: cover;
   }
 
+  .beach {
+    background-image: url("/images/beach1.jpg");
+    min-height: 400px;
+  }
+  .beach {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+  
+
   div {
     display: block;
   }
@@ -57,7 +73,7 @@ background-size: cover;
     color: #000;
 }
 .caption span.border {
-  background-color: #111;
+  background-color: #e99b9b;
   color: #fff;
   padding: 18px;
   font-size: 25px;
@@ -171,7 +187,7 @@ a {
 /* Change background on mouse-over */
 a:hover {
   color: #bae3f3;
-  background-color: #0086af;
+  background-color: #437796;
 }
 
 div {
@@ -205,7 +221,8 @@ nav a {
 
 .flex-container {
   display: flex;
-  background-color: #908c92;
+  background-color: #98c2e4
+  
 }
 
 .profile-image {
@@ -380,7 +397,7 @@ form {
 
 .form-item input:hover,
 .form-item textarea:hover {
-  border: 2px solid #fa4224;
+  border: 2px solid #4d9faa;
 }
 
 .form-item input,
@@ -390,16 +407,18 @@ form {
   background-color: #fff;
   padding: 5px;
   font-size: 18px;
+  col
 }
 
 .form-item button:hover {
-  border: 2px solid #fa4224;
-  background-color: #fa4224;
+  border: 2px solid #4d9faa;
+  background-color: #4d9faa;
   color: #fff;
 }
 
 .form-item button {
   width: 100px;
+  
 }
 
 .logo-container {

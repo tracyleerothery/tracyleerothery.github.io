@@ -31,42 +31,41 @@
     <!-- <div class="logo-container">
       <div><img src="images/logo.png" alt="" /></div>
     </div> -->
-
-    <div class="container">
-      <img src="images/notebook.jpg" alt="Notebook" style="width: 100%" />
-      <div class="content">
-        <h1>Get in Touch</h1>
-        <p>
-          contact form to reach me.Lorem ipsum dolor sit amet, an his etiam
-          torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis
-          neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum
-          tractatos ei.
-        </p>
+    <div class="sand">
+      <div class="caption">
+        <span
+          class="border"
+          style="background-color: black; font-size: 25px; color: #ffffff"
+        >
+          Contact me
+        </span>
       </div>
     </div>
+    <div class="parallax">
+      <!-- Post is the data being sent -->
+      <form action="https://formspree.io/f/mayvqqgo" method="post">
+        <div class="form-item">
+          <!-- input type is text and id and name is name, id and for are going to be the same -->
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+        </div>
 
-    <!-- Post is the data being sent -->
-    <form action="https://formspree.io/f/mayvqqgo" method="post">
-      <div class="form-item">
-        <!-- input type is text and id and name is name, id and for are going to be the same -->
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" />
-      </div>
+        <div class="form-item">
+          <label for="mail">Email</label>
+          <!-- input type is email and id matches the for, name is for accesiblity-->
+          <input type="email" id="mail" name="email" />
+        </div>
 
-      <div class="form-item">
-        <label for="mail">Email</label>
-        <!-- input type is email and id matches the for, name is for accesiblity-->
-        <input type="email" id="mail" name="email" />
-      </div>
+        <div class="form-item">
+          <label for="message" id="message" name="message">Message</label>
+          <textarea id="message" name="message"> </textarea>
+        </div>
+        <div class="form-item">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
 
-      <div class="form-item">
-        <label for="message" id="message" name="message">Message</label>
-        <textarea id="message" name="message"> </textarea>
-      </div>
-      <div class="form-item">
-        <button type="submit">Send!</button>
-      </div>
-    </form>
     <footer>
       Copyright © 2022 Tracy Rothery • Perth based Freelance Web Designer &
       Developer
