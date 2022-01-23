@@ -364,7 +364,7 @@ footer {
   padding: 10px;
 }
 .heading {
-  font-size: x-large;
+  font-size: 30px;
   text-align: center;
   margin-top: 10px;
   padding: 10px;
@@ -452,6 +452,8 @@ nav a {
   }
 }
 
+
+
 .profile-text {
   color: #f2f2f2;
   padding: 10px;
@@ -461,6 +463,29 @@ nav a {
   text-overflow: ellipsis;
   font-size: x-large;
 }
+
+
+
+.about-text {
+  color: white;
+  padding: 10px;
+  margin: 15px 15px;
+  text-align: center;
+  font-weight: lighter;
+  text-overflow: ellipsis;
+  font-size: 25px;
+}
+
+.about-text1 {
+  color: #253446;
+  padding: 10px;
+  margin: 15px 15px;
+  text-align: center;
+  font-weight: lighter;
+  text-overflow: ellipsis;
+  font-size: 25px;
+}
+
 #more {
   display: none;
 }
@@ -558,7 +583,7 @@ form {
 
 .form-item input:hover,
 .form-item textarea:hover {
-  border: 2px solid #4d9faa;
+  border: 2px solid #a9aa4d;
 }
 
 .form-item input,
@@ -567,12 +592,12 @@ form {
   border: 2px solid #fddc5c;
   background-color: #fff;
   padding: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .form-item button:hover {
   border: 2px solid #4d9faa;
-  background-color: #4d9faa;
+  background-color: #aa9c4d;
   color: #fff;
 }
 
@@ -589,7 +614,9 @@ form {
   box-sizing: border-box;
 }
 
-.row > .column {
+.row
+
+.column {
   padding: 0 8px;
 }
 
