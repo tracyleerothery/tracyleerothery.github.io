@@ -792,6 +792,61 @@ div {
 }
 
 
+form {
+  margin: 45px auto;
+  padding: auto;
+  width: 90%;
+  background-color: #f1f1f1;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+.form-item label {
+  flex-basis: 150px;
+  font-size: 16px;
+  
+}
+
+.form-item input,
+.form-item textarea {
+  flex-basis: 50%;
+  border: 2px solid #d8b2db;
+  
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+  border: 2px solid #d8b2db;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+  border: 2px solid #d8b2db;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 16px;
+  col
+}
+
+.form-item button:hover {
+  border: 2px solid #4d9faa;
+  background-color: #4d9faa;
+  color: #fff;
+}
+
+.form-item button {
+  width: 100px;
+  
+}
+
+
 @media screen and (max-width: 600px) {
 
   
