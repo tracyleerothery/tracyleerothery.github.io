@@ -252,6 +252,10 @@ header {
   background-color: var(--white-color);
 }
 
+.portfolio-text {
+  font-size: 17px;
+}
+
 .container-p-box {
   background-color: #f1f1f1;
   padding: 55px;
@@ -259,9 +263,17 @@ header {
 }
 
 .project-image {
-  height: 450px;
+  height: 100%;
   width: auto;
   display: block;
+}
+
+.p-image {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project {
@@ -295,7 +307,7 @@ h1 {
 }
 
 .h4 {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   color: #ffffff;
   background-color: #e99b9b;
