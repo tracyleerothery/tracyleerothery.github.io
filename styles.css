@@ -254,7 +254,7 @@ h1 {
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 1px;
   text-align: center;
 }
 
@@ -733,11 +733,16 @@ img.hover-shadow {
 
 
  @media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display:flex}
-  .nav a.icon {
-    float: right;
-    display: block;
-  }
+ 
+  
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 30px auto;
+  background-color: var(--white-color);
+}
+
   
 .border {
   background-color: transparent;
@@ -757,13 +762,42 @@ img.hover-shadow {
   
 }
 
-.profile-image {
+.project-image {
+  height: 100px;
+  width: 100px;
+  display:inline
+}
+
+
+.project {
   display: flex;
-  align-content: center;
-  width: 50%;
-  height: 50%;
-  margin: 15px;
+  margin-bottom: 80px;
+  background-color: #f1f1f1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar {
+  float: right;			
+}
+
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 16px;
   padding: 10px;
+  text-align: right;
+  font-size: 60px;
+  font-family: Recoleta, sans-serif;
+  font-weight: 400;
+}
+
+::selection {
+  background: #50959e;
+  color: #fdf8f5;
 }
 
 .committe-image {
@@ -849,7 +883,10 @@ form {
 
 @media screen and (max-width: 600px) {
 
-  
+.video {
+  width: 200px;
+  height: 200px;
+}
   
   .caption {
     position: absolute;
@@ -862,20 +899,20 @@ form {
 
 .c-container {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .border {
-    background-color: transparent;
-    width: 50%;
-    color: #fff;
-    padding: 18px;
-    font-size:40px;
-    text-align: center;
-    letter-spacing: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: transparent;
+  width: 50%;
+  color: #fff;
+  padding: 18px;
+  font-size:40px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   }
   
@@ -886,34 +923,34 @@ form {
   }
   
 .profile-image {
-    display: flex;
-    align-content: center;
-    width: 50%;
-    height: 50%;
-    margin: 15px;
-    padding: 10px;
+  display: flex;
+  align-content: center;
+  width: 50%;
+  height: 50%;
+  margin: 15px;
+    adding: 10px;
   }
   
 .committe-image {
-    display: flex;
-    align-content: center;
-    width: 25%;
-    height: 25%;
+  isplay: flex;
+  align-content: center;
+  width: 25%;
+  height: 25%;
   }
   
-  div {
+div {
     display: block;
   }
   
   
 .profile-text {
-    color: #f2f2f2;
-    padding: 10px;
-    margin: 15px 15px;
-    text-align:left;
-    font-weight: lighter;
-    text-overflow: ellipsis;
-    font-size: 16px;
+  color: #f2f2f2;
+  padding: 10px;
+  margin: 15px 15px;
+  text-align:left;
+  font-weight: lighter;
+  text-overflow: ellipsis;
+  font-size: 16px;
   }
   
 #more {
