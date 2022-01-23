@@ -77,6 +77,63 @@ html {
   background-size: cover;
 }
 
+
+
+.blackocean {
+  background-image: url("/images/oceanhorizontal.jpg");
+  min-height: 400px;
+}
+.blackocean {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beach5 {
+  background-image: url("/images/beach8.jpg");
+  min-height: 400px;
+}
+.beach5 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.beach4 {
+  background-image: url("/images/beach7.jpg");
+  min-height: 400px;
+}
+.beach4 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.beach3 {
+  background-image: url("/images/beach4.jpg");
+  min-height: 400px;
+}
+.beach3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .beach2 {
   background-image: url("/images/beach2.jpg");
   min-height: 400px;
@@ -130,6 +187,11 @@ div {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  font-weight: 400;
+  background-color: white;
+  font-size: 25px;
+  color: rgb(155, 111, 111)
+  
 }
 
 .title {
@@ -200,7 +262,6 @@ header {
   height: 450px;
   width: auto;
   display: block;
-
 }
 
 .project {
@@ -444,7 +505,7 @@ nav a {
 }
 
 
-/* ONE  */
+/* ONE Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -686,75 +747,7 @@ img.hover-shadow {
 }
 
 
-.caption {
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  text-align: center;
-  transform: translate(-50%, 0%);
-  color: rgb(255, 255, 255);
-}
-
-.c-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.border {
-  background-color: transparent;
-  width: 50%;
-  color: #fff;
-  padding: 18px;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 5px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-}
-
-.flex-container {
-display: flex;
-background-color: #98c2e4;
-}
-
-.profile-image {
-display: flex;
-align-content: center;
-width: 50%;
-height: 50%;
-margin: 15px;
-padding: 10px;
-}
-
-.committe-image {
-display: flex;
-align-content: center;
-width: 25%;
-height: 25%;
-}
-
-div {
-display: block;
-}
-
-.profile-text {
-color: #f2f2f2;
-padding: 10px;
-margin: 15px 15px;
-text-align: left;
-font-weight: lighter;
-text-overflow: ellipsis;
-font-size: 16px;
-}
-
-#more {
-display: none;
-}
-
-/* two */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   #portfolio {
     display: flex;
     flex-direction: column;
@@ -780,6 +773,17 @@ display: none;
   background-color: #98c2e4;
 }
 
+.project-image {
+  height: 100px;
+  width: 100px;
+  display: inline;
+}
+
+.project {
+  display: flex;
+  margin-bottom: 80px;
+  background-color: #f1f1f1;
+}
 
 * {
   margin: 0;
@@ -878,17 +882,75 @@ form {
   width: 100px;
 }
 
-.project-image {
-  height: 100px;
-  width: 100px;
-  display: inline;
+@media screen and (max-width: 600px) {
+  .video {
+    width: 200px;
+    height: 200px;
+  }
+
+  .caption {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%, 0%);
+    color: rgb(255, 255, 255);
+  }
+
+  .c-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .border {
+    background-color: transparent;
+    width: 50%;
+    color: #fff;
+    padding: 18px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
 }
 
-.project {
+.flex-container {
   display: flex;
-  margin-bottom: 80px;
-  background-color: #f1f1f1;
+  background-color: #98c2e4;
 }
 
-/* three */
-@media screen and (max-width: 100px) {
+.profile-image {
+  display: flex;
+  align-content: center;
+  width: 50%;
+  height: 50%;
+  margin: 15px;
+  padding: 10px;
+}
+
+.committe-image {
+  display: flex;
+  align-content: center;
+  width: 25%;
+  height: 25%;
+}
+
+div {
+  display: block;
+}
+
+.profile-text {
+  color: #f2f2f2;
+  padding: 10px;
+  margin: 15px 15px;
+  text-align: left;
+  font-weight: lighter;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+#more {
+  display: none;
+}
