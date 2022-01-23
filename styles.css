@@ -1,22 +1,17 @@
-body, html {
+body,
+html {
   height: 100%;
   font: 400 15px/1.8 "Lato", sans-serif;
   background-color: #98c2e4;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 1.3;
   letter-spacing: 0.02em;
   color: var(--dark-color);
-
-body {
-  
-  color: rgb(0, 0, 0); 
-    }
 }
 
 .parallax-container {
   height: 100%;
   padding: 0;
-
 }
 
 .parallax {
@@ -30,12 +25,12 @@ body {
   background-size: cover;
 }
 .wave {
-position: relative;
-opacity: 0.65;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .parallax1 {
@@ -48,13 +43,12 @@ background-size: cover;
   background-size: cover;
 }
 .wave1 {
-position: relative;
-opacity: 0.65;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sand {
@@ -68,68 +62,65 @@ background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  }
+}
 
-  .beach1 {
-    background-image: url("/images/beach1.jpg");
-    min-height: 400px;
-  }
-  .beach1 {
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+.beach1 {
+  background-image: url("/images/beach1.jpg");
+  min-height: 400px;
+}
+.beach1 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    .beach2 {
-      background-image: url("/images/beach2.jpg");
-      min-height: 400px;
-    }
-    .beach2 {
-      position: relative;
-      opacity: 0.65;
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      }
+.beach2 {
+  background-image: url("/images/beach2.jpg");
+  min-height: 400px;
+}
+.beach2 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-      .beach {
-        background-image: url("/images/beach.jpg");
-        min-height: 400px;
-      }
-      .beach {
-        position: relative;
-        opacity: 0.65;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        }
+.beach {
+  background-image: url("/images/beach.jpg");
+  min-height: 400px;
+}
+.beach {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+div {
+  display: block;
+}
 
-  
-
-  div {
-    display: block;
-  }
-  
-  .caption {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    text-align: center;
-    transform: translate(-50%, 0%);
-    color: rgb(255, 255, 255);
+.caption {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  text-align: center;
+  transform: translate(-50%, 0%);
+  color: rgb(255, 255, 255);
 }
 
 .c-container {
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .border {
@@ -156,17 +147,12 @@ background-size: cover;
   margin-top: 20px;
   margin-bottom: 10px;
   padding: 10px 20px;
-  color: var(--main-color);
-  font-size: 1em;
+  color: white;
+  font-size: 1.1em;
   border: 2px solid var(--main-color);
   border-radius: 10px;
   text-align: center;
-
 }
-
-
-
-
 
 #showcase #speech-bubble {
   background-color: var(--white-color);
@@ -180,17 +166,15 @@ background-size: cover;
   justify-content: center;
   opacity: 0.8;
   position: relative;
-
 }
 
 .white-box {
-color: #777;
-background-color: white;
-text-align: center;
-padding: 50px 80px;
-text-align: justify;
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
 }
-
 
 header {
   text-align: center;
@@ -207,20 +191,16 @@ header {
 }
 
 .container-p-box {
-  
   background-color: #f1f1f1;
   padding: 55px;
   margin: 30px auto;
-
 }
-
 
 .project-image {
   height: 400px;
   width: auto;
-  display:block
+  display: block;
 }
-
 
 .project {
   display: flex;
@@ -234,9 +214,8 @@ header {
 }
 
 #sidebar {
-  float: right;			
+  float: right;
 }
-
 
 h1 {
   margin-top: 0px;
@@ -253,9 +232,11 @@ h1 {
   color: #fdf8f5;
 }
 
-h2 {
-  font-size: 1px;
+.h4 {
+  font-size: 20px;
   text-align: center;
+  color: #ffffff;
+  background-color: #e99b9b;
 }
 
 nav {
@@ -277,8 +258,6 @@ nav a {
   padding: 15px 15px;
   text-decoration: none;
 }
-
-
 
 /* Change background on mouse-over */
 a:hover {
@@ -302,7 +281,6 @@ footer {
   padding: 10px;
   font-weight: 400;
   color: #6e6a6a;
-  
 }
 
 .about {
@@ -318,15 +296,11 @@ footer {
   padding: 10px;
 }
 
-
 .footer-addition {
   background-color: #ffffff;
   padding: 10px;
   font-size: medium;
   color: #ad6868;
-
-  
-  
 }
 nav a {
   display: inline-block;
@@ -341,8 +315,7 @@ nav a {
 
 .flex-container {
   display: flex;
-  background-color: #98c2e4
-  
+  background-color: #98c2e4;
 }
 
 .profile-image {
@@ -429,22 +402,18 @@ nav a {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
-  
 }
 
 .fa-github {
   background: #3f3f3f;
   color: white;
 }
-
-
-
 
 .header {
   text-align: center;
@@ -491,8 +460,6 @@ nav a {
   }
 }
 
-
-
 header {
   border-bottom: 2px solid #f7f3e2;
   text-align: center;
@@ -510,20 +477,17 @@ form {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  
 }
 
 .form-item label {
   flex-basis: 150px;
   font-size: 22px;
-  
 }
 
 .form-item input,
 .form-item textarea {
   flex-basis: 50%;
   border: 2px solid #fddc5c;
-  
 }
 
 .form-item input:hover,
@@ -538,7 +502,6 @@ form {
   background-color: #fff;
   padding: 5px;
   font-size: 18px;
-  col
 }
 
 .form-item button:hover {
@@ -549,7 +512,6 @@ form {
 
 .form-item button {
   width: 100px;
-  
 }
 
 .logo-container {
@@ -701,7 +663,6 @@ img.hover-shadow {
 .h3 {
   font-size: 30px;
   font-family: Recoleta, sans-serif;
-
 }
 .h3-center {
   align-content: center;
@@ -731,43 +692,37 @@ img.hover-shadow {
   padding: 20px; /* Some padding */
 }
 
+@media screen and (max-width: 600px) {
+  #portfolio {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 30px auto;
+    background-color: var(--white-color);
+  }
 
- @media screen and (max-width: 600px) {
- 
-  
-#portfolio {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  margin: 30px auto;
-  background-color: var(--white-color);
-}
-
-  
-.border {
-  background-color: transparent;
-  width: 50%;
-  color: rgb(255, 255, 255);
-  padding: 18px;
-  font-size:40px;
-  text-align: center;
-  letter-spacing: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+  .border {
+    background-color: transparent;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    padding: 18px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
 }
 
 .flex-container {
   display: flex;
-  background-color: #98c2e4
-  
+  background-color: #98c2e4;
 }
 
 .project-image {
   height: 100px;
   width: 100px;
-  display:inline
+  display: inline;
 }
-
 
 .project {
   display: flex;
@@ -781,9 +736,8 @@ img.hover-shadow {
 }
 
 #sidebar {
-  float: right;			
+  float: right;
 }
-
 
 h1 {
   margin-top: 0px;
@@ -811,12 +765,11 @@ div {
   display: block;
 }
 
-
 .profile-text {
   color: #f2f2f2;
   padding: 10px;
   margin: 15px 15px;
-  text-align:left;
+  text-align: left;
   font-weight: lighter;
   text-overflow: ellipsis;
   font-size: 16px;
@@ -824,7 +777,6 @@ div {
 #more {
   display: none;
 }
-
 
 form {
   margin: 45px auto;
@@ -838,20 +790,17 @@ form {
   justify-content: center;
   align-items: center;
   padding: 5px;
-  
 }
 
 .form-item label {
   flex-basis: 150px;
   font-size: 16px;
-  
 }
 
 .form-item input,
 .form-item textarea {
   flex-basis: 50%;
   border: 2px solid #d8b2db;
-  
 }
 
 .form-item input:hover,
@@ -866,7 +815,6 @@ form {
   background-color: #fff;
   padding: 5px;
   font-size: 16px;
-  col
 }
 
 .form-item button:hover {
@@ -877,17 +825,14 @@ form {
 
 .form-item button {
   width: 100px;
-  
 }
-
 
 @media screen and (max-width: 600px) {
+  .video {
+    width: 200px;
+    height: 200px;
+  }
 
-.video {
-  width: 200px;
-  height: 200px;
-}
-  
   .caption {
     position: absolute;
     left: 50%;
@@ -895,66 +840,62 @@ form {
     text-align: center;
     transform: translate(-50%, 0%);
     color: rgb(255, 255, 255);
-}
-
-.c-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.border {
-  background-color: transparent;
-  width: 50%;
-  color: #fff;
-  padding: 18px;
-  font-size:40px;
-  text-align: center;
-  letter-spacing: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  }
-  
-.flex-container {
+
+  .c-container {
     display: flex;
-    background-color: #98c2e4
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  
+
+  .border {
+    background-color: transparent;
+    width: 50%;
+    color: #fff;
+    padding: 18px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+.flex-container {
+  display: flex;
+  background-color: #98c2e4;
+}
+
 .profile-image {
   display: flex;
   align-content: center;
   width: 50%;
   height: 50%;
   margin: 15px;
-    adding: 10px;
-  }
-  
+  padding: 10px;
+}
+
 .committe-image {
-  isplay: flex;
+  display: flex;
   align-content: center;
   width: 25%;
   height: 25%;
-  }
-  
+}
+
 div {
-    display: block;
-  }
-  
-  
+  display: block;
+}
+
 .profile-text {
   color: #f2f2f2;
   padding: 10px;
   margin: 15px 15px;
-  text-align:left;
+  text-align: left;
   font-weight: lighter;
   text-overflow: ellipsis;
   font-size: 16px;
-  }
-  
+}
+
 #more {
-    display: none;
-  }
-  
-  
+  display: none;
+}
