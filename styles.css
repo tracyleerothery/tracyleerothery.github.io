@@ -269,7 +269,7 @@ nav {
 }
 
 /* Links inside the navbar */
-a {
+nav a {
   float: left;
   display: block;
   color: #6b705c;
@@ -277,6 +277,8 @@ a {
   padding: 15px 15px;
   text-decoration: none;
 }
+
+
 
 /* Change background on mouse-over */
 a:hover {
@@ -729,43 +731,138 @@ img.hover-shadow {
   padding: 20px; /* Some padding */
 }
 
-/* 
-@media (min-width: 300px) {
-  .media{
-    width: calc(100% / 2 - 10px);
-    display: inline-block;
+
+ @media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display:flex}
+  .nav a.icon {
+    float: right;
+    display: block;
   }
+  
+.border {
+  background-color: transparent;
+  width: 50%;
+  color: rgb(255, 255, 255);
+  padding: 18px;
+  font-size:40px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 }
 
-@media (min-width: 900px) {
-  .media{
-    width: calc(100% / 3 - 10px);
-    display: inline-block;
-  }
-  .media{
-    width: calc(100% / 4 - 10px);
-    height: 200px;
-  }
-} */
+.flex-container {
+  display: flex;
+  background-color: #98c2e4
+  
+}
 
-/* 
+.profile-image {
+  display: flex;
+  align-content: center;
+  width: 50%;
+  height: 50%;
+  margin: 15px;
+  padding: 10px;
+}
 
-   @media (max-width: 1000px)
-.flex {
+.committe-image {
+  display: flex;
+  align-content: center;
+  width: 25%;
+  height: 25%;
+}
+
+div {
+  display: block;
+}
+
+
+.profile-text {
+  color: #f2f2f2;
+  padding: 10px;
+  margin: 15px 15px;
+  text-align:left;
+  font-weight: lighter;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+#more {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  
+  
+  .caption {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%, 0%);
+    color: rgb(255, 255, 255);
+}
+
+.c-container {
+  display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-   @media (max-width: 1000px)
-* {
+.border {
+    background-color: transparent;
+    width: 50%;
+    color: #fff;
+    padding: 18px;
+    font-size:40px;
     text-align: center;
-}
-
-@media (max-width: 1000px)
-.project:nth-child(even) {
-    flex-direction: column;
-}
- */ 
-
-  */
+    letter-spacing: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  }
+  
+.flex-container {
+    display: flex;
+    background-color: #98c2e4
+    
+  }
+  
+.profile-image {
+    display: flex;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+    margin: 15px;
+    padding: 10px;
+  }
+  
+.committe-image {
+    display: flex;
+    align-content: center;
+    width: 25%;
+    height: 25%;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  
+.profile-text {
+    color: #f2f2f2;
+    padding: 10px;
+    margin: 15px 15px;
+    text-align:left;
+    font-weight: lighter;
+    text-overflow: ellipsis;
+    font-size: 16px;
+  }
+  
+#more {
+    display: none;
+  }
+  
+  

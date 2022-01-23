@@ -1,3 +1,15 @@
+
+
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
+
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
@@ -183,3 +195,5 @@ button.style-5 {
     }
   }
 }
+
+
