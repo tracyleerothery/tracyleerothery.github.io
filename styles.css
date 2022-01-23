@@ -197,9 +197,10 @@ header {
 }
 
 .project-image {
-  height: 400px;
+  height: 450px;
   width: auto;
   display: block;
+
 }
 
 .project {
@@ -442,16 +443,8 @@ nav a {
   width: 100%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* ONE  */
 @media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
@@ -692,7 +685,76 @@ img.hover-shadow {
   padding: 20px; /* Some padding */
 }
 
-@media screen and (max-width: 600px) {
+
+.caption {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  text-align: center;
+  transform: translate(-50%, 0%);
+  color: rgb(255, 255, 255);
+}
+
+.c-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  background-color: transparent;
+  width: 50%;
+  color: #fff;
+  padding: 18px;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+}
+
+.flex-container {
+display: flex;
+background-color: #98c2e4;
+}
+
+.profile-image {
+display: flex;
+align-content: center;
+width: 50%;
+height: 50%;
+margin: 15px;
+padding: 10px;
+}
+
+.committe-image {
+display: flex;
+align-content: center;
+width: 25%;
+height: 25%;
+}
+
+div {
+display: block;
+}
+
+.profile-text {
+color: #f2f2f2;
+padding: 10px;
+margin: 15px 15px;
+text-align: left;
+font-weight: lighter;
+text-overflow: ellipsis;
+font-size: 16px;
+}
+
+#more {
+display: none;
+}
+
+/* two */
+@media screen and (max-width: 800px) {
   #portfolio {
     display: flex;
     flex-direction: column;
@@ -718,17 +780,6 @@ img.hover-shadow {
   background-color: #98c2e4;
 }
 
-.project-image {
-  height: 100px;
-  width: 100px;
-  display: inline;
-}
-
-.project {
-  display: flex;
-  margin-bottom: 80px;
-  background-color: #f1f1f1;
-}
 
 * {
   margin: 0;
@@ -827,75 +878,17 @@ form {
   width: 100px;
 }
 
-@media screen and (max-width: 600px) {
-  .video {
-    width: 200px;
-    height: 200px;
-  }
-
-  .caption {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    text-align: center;
-    transform: translate(-50%, 0%);
-    color: rgb(255, 255, 255);
-  }
-
-  .c-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .border {
-    background-color: transparent;
-    width: 50%;
-    color: #fff;
-    padding: 18px;
-    font-size: 40px;
-    text-align: center;
-    letter-spacing: 5px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
+.project-image {
+  height: 100px;
+  width: 100px;
+  display: inline;
 }
 
-.flex-container {
+.project {
   display: flex;
-  background-color: #98c2e4;
+  margin-bottom: 80px;
+  background-color: #f1f1f1;
 }
 
-.profile-image {
-  display: flex;
-  align-content: center;
-  width: 50%;
-  height: 50%;
-  margin: 15px;
-  padding: 10px;
-}
-
-.committe-image {
-  display: flex;
-  align-content: center;
-  width: 25%;
-  height: 25%;
-}
-
-div {
-  display: block;
-}
-
-.profile-text {
-  color: #f2f2f2;
-  padding: 10px;
-  margin: 15px 15px;
-  text-align: left;
-  font-weight: lighter;
-  text-overflow: ellipsis;
-  font-size: 16px;
-}
-
-#more {
-  display: none;
-}
+/* three */
+@media screen and (max-width: 100px) {
